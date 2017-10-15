@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AbstractDevice.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Msg.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AuthTable.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Controller.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SimpleSwitch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AbstractDevice.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AuthTable.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Controller.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ProtocolConstants.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SimpleSwitch.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Msg.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="includes">
+      <UniqueIdentifier>{b5d3d67b-c603-4b29-8d87-140190570f80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

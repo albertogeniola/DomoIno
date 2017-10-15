@@ -1,0 +1,15 @@
+#ifndef _PROTOCOL_CONSTANTS_h
+#define _PROTOCOL_CONSTANTS_h
+
+#define RECV_TIMEOUT 2000
+#define MAX_NODES 24
+#define MAX_NODE_DESCR_LEN 48
+
+#define CONTROLLER_NODE_ID 1
+
+enum DeviceClassId {
+	CONTROLLER,
+	SIMPLE_SWITCH
+};
+
+#endif
